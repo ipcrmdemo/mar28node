@@ -2,6 +2,7 @@
 applications:
 - name: "mar28node"
   memory: 650M
+  port: 3000
   instances: 1
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   env:
